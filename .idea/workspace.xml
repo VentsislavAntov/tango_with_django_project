@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7421c50b-8e99-4287-a2d1-c6a170b8a582" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/populate_rango.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rango/migrations/0001_initial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rango/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/rango/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rango/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/rango/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/rango/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rango/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/rango/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rango/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,12 +20,20 @@
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Wi6WqMQbBculqRKBdQNiUDwrTv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="D:/Anaconda/envs/rango" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -36,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Django tests.Test: rango.tests_chapter4">
+  <component name="RunManager" selected="Django tests.Test: rango.tests_chapter5">
     <configuration name="Test: rango.tests_chapter3.Chapter3ProjectStructureTests" type="DjangoTestsConfigurationType" temporary="true">
       <module name="tango_with_django_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -77,6 +91,26 @@
       <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Test: rango.tests_chapter5" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="tango_with_django_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="rango.tests_chapter5" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="tango_with_django_project" type="Python.DjangoServer" factoryName="Django server">
       <module name="tango_with_django_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,6 +136,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Django tests.Test: rango.tests_chapter5" />
         <item itemvalue="Django tests.Test: rango.tests_chapter4" />
         <item itemvalue="Django tests.Test: rango.tests_chapter3.Chapter3ProjectStructureTests" />
       </list>
@@ -122,7 +157,13 @@
       <workItem from="1580064993943" duration="566000" />
       <workItem from="1580065612570" duration="469000" />
       <workItem from="1580066218042" duration="812000" />
-      <workItem from="1580224125946" duration="2048000" />
+      <workItem from="1580224125946" duration="3811000" />
+      <workItem from="1580228707146" duration="649000" />
+      <workItem from="1580245513205" duration="178000" />
+      <workItem from="1580659085189" duration="5911000" />
+      <workItem from="1580671803357" duration="116000" />
+      <workItem from="1580671934192" duration="6012000" />
+      <workItem from="1580677976541" duration="2843000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1579625967676</created>
@@ -138,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579627581964</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="chapter 4 commit">
+      <created>1580226267110</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580226267110</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,10 +208,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="chapter 3 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="chapter 3 commit" />
+    <MESSAGE value="chapter 4 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="chapter 4 commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter3_Chapter3ProjectStructureTests.coverage" NAME="Test: rango.tests_chapter3.Chapter3ProjectStructureTests Coverage Results" MODIFIED="1580065528471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter4.coverage" NAME="Test: rango.tests_chapter4 Coverage Results" MODIFIED="1580226180713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter5.coverage" NAME="Test: rango.tests_chapter5 Coverage Results" MODIFIED="1580680913423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter4.coverage" NAME="Test: rango.tests_chapter4 Coverage Results" MODIFIED="1580677376769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
