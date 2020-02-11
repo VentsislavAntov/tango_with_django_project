@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7421c50b-8e99-4287-a2d1-c6a170b8a582" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/rango/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/rango/add_category.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/rango/add_page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rango/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/rango/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/rango/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rango/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/rango/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/rango/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rango/category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/rango/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rango/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rango/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/rango/forms.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -213,7 +205,8 @@
       <workItem from="1580733299358" duration="887000" />
       <workItem from="1580766649470" duration="6757000" />
       <workItem from="1580829909842" duration="619000" />
-      <workItem from="1581271971406" duration="9002000" />
+      <workItem from="1581271971406" duration="9852000" />
+      <workItem from="1581436800269" duration="213000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1579625967676</created>
@@ -257,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580774034789</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="chapter 7 to ask for test fails - page not working as intended">
+      <created>1581283474722</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1581283474722</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,13 +282,14 @@
     <MESSAGE value="chapter 4 commit" />
     <MESSAGE value="chapter 5 commit" />
     <MESSAGE value="chapter 6 commit working" />
-    <option name="LAST_COMMIT_MESSAGE" value="chapter 6 commit working" />
+    <MESSAGE value="chapter 7 to ask for test fails - page not working as intended" />
+    <option name="LAST_COMMIT_MESSAGE" value="chapter 7 to ask for test fails - page not working as intended" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter6_Chapter6PopulationScriptTest.coverage" NAME="Test: rango.tests_chapter6.Chapter6PopulationScriptTest Coverage Results" MODIFIED="1580733328692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter5.coverage" NAME="Test: rango.tests_chapter5 Coverage Results" MODIFIED="1580733375209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter3_Chapter3ProjectStructureTests.coverage" NAME="Test: rango.tests_chapter3.Chapter3ProjectStructureTests Coverage Results" MODIFIED="1580829953219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter7.coverage" NAME="Test: rango.tests_chapter7 Coverage Results" MODIFIED="1581283251152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter7.coverage" NAME="Test: rango.tests_chapter7 Coverage Results" MODIFIED="1581437014206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter4.coverage" NAME="Test: rango.tests_chapter4 Coverage Results" MODIFIED="1580830534798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/tango_with_django_project$Test__rango_tests_chapter6.coverage" NAME="Test: rango.tests_chapter6 Coverage Results" MODIFIED="1580829938864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
