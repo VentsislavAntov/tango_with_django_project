@@ -12,6 +12,7 @@ from rango.forms import PageForm
 from rango.forms import UserForm, UserProfileForm
 from rango.models import Category
 from rango.models import Page
+from rango.models import User
 
 
 def index(request):
@@ -140,6 +141,7 @@ def register(request):
     registered = False
 
     if request.method == 'POST':
+
         user_form = UserForm(request.POST)
         profile_form = UserProfileForm(request.POST)
 
@@ -173,11 +175,12 @@ def register(request):
 
 
 def user_login(request):
+
     if request.method == 'POST':
         username = request.POST.get('username')
         password = request.POST.get('password')
-
         user = authenticate(username=username, password=password)
+
         if user:
             if user.is_active:
                 login(request, user)
